@@ -20,7 +20,7 @@ export default function NewProject({ onAdd, onSwitch }) {
       enteredDescription.trim() === "" ||
       enteredDueDate.trim() === ""
     ) {
-      modal.current.open();
+      modal.current.showModal();
       return;
     }
 
